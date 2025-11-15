@@ -1,1 +1,1 @@
-# travel--booking-platform-project
+# travel-booking-platform-project
