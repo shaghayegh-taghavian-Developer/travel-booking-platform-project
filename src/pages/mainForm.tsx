@@ -58,27 +58,22 @@ function MainForm() {
         onSectionChange={scrollToSection}
       />
 
-      {/* بخش هوم */}
       <div ref={homeRef}>
         <Hero activeTab={activeTab} setActiveTab={setActiveTab} />
       </div>
 
-      {/* بخش خدمات */}
       <div ref={servicesRef}>
         <Services />
       </div>
 
-      {/* بخش سوالات متداول */}
       <div ref={faqRef}>
         <FAQ />
-   
       </div>
+
      <div ref={footerRef}>
         <Footer />
-   
       </div>
       
-
       <AuthModal isOpen={isAuthModalOpen} onClose={handleCloseModal} />
 
     </div>

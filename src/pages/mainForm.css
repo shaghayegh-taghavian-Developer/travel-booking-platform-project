@@ -14,7 +14,7 @@ body {
   min-height: 100vh;
 }
 
-/* استایل‌های عمومی */
+/*  public styles */
 .container {
   max-width: 1200px;
   margin: 0 auto;

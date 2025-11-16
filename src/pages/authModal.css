@@ -209,7 +209,7 @@
   transform: translateY(-1px);
 }
 
-/* رسپانسیو */
+/*responsive*/
 @media (max-width: 480px) {
   .modal-content {
     margin: 20px;

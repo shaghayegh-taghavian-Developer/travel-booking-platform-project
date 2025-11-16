@@ -8,9 +8,9 @@ const Hero = ({ activeTab, setActiveTab }) => {
     departureDate: "",
     returnDate: "",
     passengers: "1",
-    // فیلدهای مخصوص قطار
+    //train
     trainType: "",
-    // فیلدهای مخصوص هتل
+    //hotel
     checkIn: "",
     checkOut: "",
     rooms: "1"
@@ -268,7 +268,7 @@ const Hero = ({ activeTab, setActiveTab }) => {
       service: activeTab,
       ...searchData
     });
-    // اینجا می‌تونید درخواست API بفرستید
+    // اrequest api
     alert(`جستجوی ${tabs.find(tab => tab.id === activeTab)?.label} انجام شد!`);
   };
 

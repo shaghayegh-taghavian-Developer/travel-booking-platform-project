@@ -13,7 +13,6 @@
     overflow: hidden;
 }
 
-/* افکت پس‌زمینه */
 .footer-container::before {
     content: '';
     position: absolute;
@@ -25,7 +24,6 @@
     pointer-events: none;
 }
 
-/* استایل هر بخش */
 .footer-section {
     flex: 1;
     text-align: center;
@@ -34,7 +32,6 @@
     transition: all 0.4s ease;
 }
 
-/* خط جداکننده بین بخش‌ها */
 .footer-section:not(:last-child)::after {
     content: '';
     position: absolute;
@@ -48,7 +45,6 @@
             transparent 100%);
 }
 
-/* استایل عنوان‌ها */
 .footer-section h4 {
     font-size: 20px;
     font-weight: 700;
@@ -71,7 +67,6 @@
     border-radius: 2px;
 }
 
-/* استایل متن‌ها */
 .footer-section p {
     font-size: 15px;
     line-height: 2.2;
@@ -102,7 +97,6 @@
     color: #ff6b6b;
 }
 
-/* استایل شماره تلفن */
 .phone-number {
     font-size: 18px;
     font-weight: 700;
@@ -123,12 +117,10 @@
     box-shadow: 0 6px 15px rgba(0, 0, 0, 0.2);
 }
 
-/* افکت hover روی کل بخش */
 .footer-section:hover {
     transform: translateY(-5px);
 }
 
-/* استایل برای موبایل */
 @media (max-width: 768px) {
     .footer-container {
         flex-direction: column;
@@ -160,7 +152,6 @@
     }
 }
 
-/* انیمیشن برای لود شدن */
 @keyframes slideInUp {
     from {
         opacity: 0;
